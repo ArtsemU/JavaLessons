@@ -23,7 +23,7 @@ public class Blabla {
                 }
             }
         }
-
+        System.out.println(sum(1,2));
         print(list);
         int inteferMy = Integer.MAX_VALUE;
         System.out.println(inteferMy);
@@ -35,5 +35,10 @@ public class Blabla {
             System.out.print(list[i] + "  ");
         }
         System.out.println();
+    }
+
+    public static int sum(int a, int b)
+    {
+        return a + b;
     }
 }
