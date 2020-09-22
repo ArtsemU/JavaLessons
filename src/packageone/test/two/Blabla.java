@@ -12,6 +12,7 @@ public class Blabla {
             list[i] = random.nextInt(100);
             //System.out.println(list[i]);
         }
+        System.out.println("Master");
         print(list);
         System.out.println("------------buble serting--------------------");
         for (int i = 0; i < list.length; i++) {
