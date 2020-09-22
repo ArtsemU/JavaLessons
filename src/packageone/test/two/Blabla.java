@@ -20,6 +20,7 @@ public class Blabla {
                     int x = list[i];
                     list[i] = list[j];
                     list[j] = x;
+                    System.out.println( "test" );
                 }
             }
         }
