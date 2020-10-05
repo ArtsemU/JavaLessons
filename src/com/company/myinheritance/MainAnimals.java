@@ -16,5 +16,8 @@ public class MainAnimals
         cat.feed("milk");
         dog.sit();
 
+        dog.sound();
+        cat.sound();
+
     }
 }
