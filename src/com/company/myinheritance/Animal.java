@@ -3,8 +3,8 @@ package com.company.myinheritance;
 public class Animal {
     String name;
     String color;
-
-    int var;
+    int xpackage;
+    public int var;
 
     public void walk(String place)
     {
@@ -13,6 +13,12 @@ public class Animal {
 
     public void sleep()
     {
+        xpackage = 10;
         System.out.println("Zzz...");
+    }
+
+    public void sound()
+    {
+        System.out.println("Hello!");
     }
 }
